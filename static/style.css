@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #eef2f3;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    background: #16a085;
+    padding: 20px;
+    text-align: center;
+      color: white;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* imagen principal*/
+.banner {
+    display: block;
+    width: 15%;
+    max-height: 150px;
+    object-fit: cover;
+    margin: 5px auto;
+    border-radius: 80px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* imane peqeuña */
+.img-pequena {
+    width: 120px;
+    display: block;
+    margin: 10px auto;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* contenedor */
+main {
+    padding: 20px;
+}
+
+/* tabla */
+table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #1abc9c;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* fomulario */
+form {
+    width: 320px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* botones */ 
+button {
+    background: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #16a085;
+}
